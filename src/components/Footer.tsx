@@ -6,6 +6,6 @@ export const Footer = () => {
     const postCtx = useContext(PostContext)
     
     return (
-        <p className="ml-5 mt-10">Há um total de: {postCtx?.post.length} posts</p>
+        <p className="ml-5 mt-10">Há um total de: {} posts</p>
     )
 }
